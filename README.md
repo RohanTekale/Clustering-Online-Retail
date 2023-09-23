@@ -1,31 +1,28 @@
-# Clustering-Online-Retail
-# Customer Segmentation using K-Means Clustering
-
-This repository contains Python code for performing customer segmentation using K-Means clustering on an e-commerce dataset. The goal of this project is to group customers based on their purchasing behavior.
+# Customer Segmentation using Machine Learning Algorithms
 
 ## Table of Contents
 - [Overview](#overview)
 - [Dependencies](#dependencies)
+- [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Code Explanation](#code-explanation)
+- [Methodology](#methodology)
 - [Results](#results)
+- [Future Improvements](#future-improvements)
 - [License](#license)
 
 ## Overview
 
-Customer segmentation is a crucial task for businesses as it helps in understanding customer behavior, targeting marketing campaigns, and improving customer satisfaction. In this project, we use the K-Means clustering algorithm to segment customers based on two features: UnitPrice and CustomerID.
+Today's businesses rely on understanding customer behavior and targeting the right products to the right audience. However, with a vast array of products available, customers often face confusion about what to purchase. Similarly, companies may struggle to identify which customer segments to target. This is where machine learning comes into play. Various algorithms can be applied to uncover hidden patterns in data, facilitating better decision-making for the future. Customer segmentation is a crucial strategy, helping companies identify distinct customer groups with similar behaviors and preferences.
+
+In this project, we implement three different clustering algorithms – k-Means, Agglomerative, and Meanshift – to segment customers based on their shopping behavior. We then compare the results obtained from these algorithms. Our Python program is trained on a dataset consisting of two features: the average amount spent by customers and the average annual visit frequency to a local retail shop.
 
 ## Dependencies
 
-To run the code in this repository, you will need the following Python libraries:
+Before running the project, make sure you have the following libraries and dependencies installed:
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn (for K-Means clustering)
+### NumPy
 
-You can install these libraries using pip:
+NumPy is a fundamental package for scientific computing in Python. It provides powerful tools for working with arrays and performing various mathematical operations efficiently.
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install numpy
