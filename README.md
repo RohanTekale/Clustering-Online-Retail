@@ -25,14 +25,3 @@ Before running the project, make sure you have the following libraries and depen
 NumPy is a fundamental package for scientific computing in Python. It provides powerful tools for working with arrays and performing various mathematical operations efficiently.
 
 
-
-### project-structure
-
-- data/
-  - customer_data.csv
-- src/
-  - customer_segmentation.ipynb
-- results/
-  - segmentation_image.jpg
-- README.md
-- LICENSE
