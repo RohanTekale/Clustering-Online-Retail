@@ -26,7 +26,8 @@ NumPy is a fundamental package for scientific computing in Python. It provides p
 
 
 
-#project-structure
+###project-structure
+
 - data/
   - customer_data.csv
 - src/
